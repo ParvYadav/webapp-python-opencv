@@ -16,7 +16,7 @@ dlib
 greenlet
 numpy==1.21.0
 olefile==0.44
-opencv-python
+opencv-contrib-python-headless
 Pillow==9.0.0
 python-engineio==3.8.2.post1
 python-socketio==1.7.7
