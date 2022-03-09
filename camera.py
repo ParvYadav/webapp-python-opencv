@@ -27,7 +27,7 @@ class VideoCamera(object):
         """
         # _______________________________________Performing some pre processing_______________________________________________
 
-        bgr_image = cv2.flip(input_img, 1)  # Flip the image
+        bgr_image = cv2.flip(input_img, 0)  # Flip the image
         rgb_image = cv2.cvtColor(bgr_image, cv2.COLOR_BGR2RGB)  # Changing color from bgr to rgb
 
         # ______________________________________________________________________________________________________________________
